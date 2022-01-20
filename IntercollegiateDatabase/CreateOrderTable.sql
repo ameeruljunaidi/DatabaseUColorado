@@ -8,7 +8,7 @@ CREATE TABLE OrderTable
     OrdNo   varchar(8),
     OrdDate date       not null,
     CustNo  varchar(8) not null,
-    EmpNo   varchar(8) not null,
+    EmpNo   varchar(8),
     CONSTRAINT OrdNoPK PRIMARY KEY (OrdNo),
     CONSTRAINT CustNoFK FOREIGN KEY (CustNo) REFERENCES Customer (CustNo),
     CONSTRAINT EmpNoFK FOREIGN KEY (EmpNo) REFERENCES Employee (EmpNo)
