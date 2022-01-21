@@ -11,6 +11,5 @@ CREATE TABLE Customer
     City     varchar(30) not null,
     State    varchar(2)  not null,
     Zip      varchar(10) not null,
-    CustBal  decimal(12, 2),
     CONSTRAINT CustomerPK PRIMARY KEY (CustNo)
 );
