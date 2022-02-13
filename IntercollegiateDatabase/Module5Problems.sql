@@ -55,6 +55,3 @@ where resname = 'nurse';
 delete
 from customer
 where custname = 'Formula 1';
-
-select *
-from customer;
